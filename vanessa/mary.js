@@ -46,13 +46,14 @@ function min(a,b){
 }
 console.log(min(5,110));
 
-function isEven( wholenumber){
-  if(number%2===0){
+function isEven(number) {
+  if (number === 0) {
     return true;
-  }else if(!number%2===0){
+  } else if (number === 1) {
     return false;
-  }else{
-    return number -2;
+  } else {
+    return isEven(Math.abs(number - 2));
   }
 }
-console.log(isEven(15));
+
+console.log(isEven(75)); 
