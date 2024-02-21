@@ -56,4 +56,4 @@ function isEven(number) {
   }
 }
 
-console.log(isEven(75)); 
+console.log(isEven(50)); 
