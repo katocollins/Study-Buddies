@@ -45,3 +45,15 @@ function min(a,b){
     return Math.min(a,b);
 }
 console.log(min(10, 6));
+
+// if Statement
+let x = 4;
+if(x>5){
+    console.log("It is already Friday")
+}
+else if(x>6){
+    console.log("It is already Saturday")
+}
+else{
+    console.log("Its a new week")
+}
